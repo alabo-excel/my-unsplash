@@ -28,7 +28,7 @@ const fetchMoreData = () => {
         loader={<h4>Loading...</h4>}
       ><div className="row">
         {images.map((image, index) => (
-          <div key={index}  className="col-lg-3 m-3">
+          <div key={index}  className="col-lg-3">
             <img src={image.download_url} alt={index} />
             <p>{image.author}</p>
           </div>
