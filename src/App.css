@@ -3,5 +3,19 @@
   margin-right: 0px!important;
 }
 .infinite-scroll-component {
-  overflow: hidden;
+  overflow: hidden!important;
+}
+header{
+  background-color: #343a40;
+  color:white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.download{
+  background-color: #6c757d;
+  border-radius: 10px;
+}
+.on-top{
+  background-color: #343a40;
+  color: white
 }

@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h4>MyUnsplash</h4>
       </header>
       <Images />
     </div>
